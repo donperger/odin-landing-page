@@ -1,2 +1,2 @@
 # odin-landing-page
-This s my second project with on the path of The Odin Project.
+This is my second project on the path of The Odin Project.
