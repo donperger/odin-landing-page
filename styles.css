@@ -41,3 +41,59 @@ a {
 }
 
 /* header */
+
+/* description */
+
+.description-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.description-text {
+    flex: 1;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.description {
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+.sign-up-button {
+    color: #e5e7eb;
+    background-color: rgb(0, 140, 255);
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px 0;
+}
+
+.sign-up-button:hover {
+    cursor: pointer;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-image {
+    aspect-ratio: auto 709 / 471;
+    max-width: 400px;
+}
+
+/* description */
+
+
+
