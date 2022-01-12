@@ -95,5 +95,46 @@ a {
 
 /* description */
 
+/* info container */
 
+.info-container {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
 
+.info-title {
+    width: 100vw;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card {
+    max-width: 200px;
+    padding: 25px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-image {
+    flex-shrink: 0;
+    width: 140px;
+    height: 140px;
+    border: 3px solid rgb(0, 68, 255);
+    border-radius: 20px;
+}
+
+.card-text {
+    color: #424242;
+    width: 150px;
+}
+
+/* info container */
